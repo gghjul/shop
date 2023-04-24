@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1440px;
+    height: 1024px;
+}
+
+header{
+    display: flex;
+}
+header span{
+    flex-direction: row;
+    width: 163px;
+    height: 35px;
+    left: 0px;
+    top: 12px;
+
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+}
+#name{
+    width: 394px;
+    height: 35px;
+    left: 326px;
+    top: 8px;
+
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.64em;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+}
+aside img{
+    width: 111px;
+    height: 139px;
+    left: 52px;
+    top: 210px;
+}
+a{
+    text-decoration: none;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+body.dark-theme {
+    color: #eee;
+    background: #121212;
+}
+.aside_img{
+    margin: 52px;
+    margin-top: 0;
+}
+.aside_text{
+    font-family: 'Jost',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+}
+.main-img{
+    margin: 66px;
+    margin-top: 0;
+    width: 475px;
+    height: 591px;
+    left: 281px;
+    top: 210px;
+    box-shadow: 7px 13px 0px rgba(0, 0, 0, 0.75);
+}
+input{
+    border: 1px solid #000000;
+    border-radius: 48px;
+    text-align: center;
+}
+nav a{
+    box-sizing: border-box;
+    width: 163px;
+    height: 35px;
+    left: 163px;
+    top: 986px;
+
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    padding: 10px;
+
+    color: #000000;
+}
+nav a:focus{
+    color: white;
+    background: #000000;
+    border: 1px solid #000000;
+}
+.price{
+    width: 480px;
+    left: 899px;
+    top: 206px;
+
+    font-family: 'Jost',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+}
+.right-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.p{
+    font-family: 'Jost',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+button{
+    width: 443px;
+    height: 68px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    font-family: 'Jost',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 15px;
+}
+.black{
+    background: #000000;
+    color: white;
+}
+.last{
+    margin-bottom: 20px;
+}
